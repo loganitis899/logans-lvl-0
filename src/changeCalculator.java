@@ -6,9 +6,11 @@ public static void main(String[] args) {
 	String nix = JOptionPane.showInputDialog("how many nickles you have?");
 	String dime = JOptionPane.showInputDialog("how many dimes you have?");
 	String quarter = JOptionPane.showInputDialog("how many quarters you have?");
-	int nix = Integer.parseInt(nixx);
-	int dime = Integer.parseInt(dimee);
-	int quarter = Integer.parseInt(quarterr);
+	int nixx = Integer.parseInt(nix);
+	int dimee = Integer.parseInt(dime);
+	int quarterr = Integer.parseInt(quarter);
+	double summ = .05 * nixx + .1 * dimee + .25 * quarterr;
+	JOptionPane.showMessageDialog(null, "your sum is "+summ +" dollars");
 }
 }
 
