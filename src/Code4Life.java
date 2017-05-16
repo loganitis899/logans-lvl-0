@@ -19,7 +19,7 @@ public class Code4Life {
 
 		}
 
-		else if (hourss <= 2 && hourss > 0) {
+		else if (hourss <= 2 && hourss >= 0) {
 			JOptionPane.showMessageDialog(null, "stop watching youtube and code");
 		}
 
